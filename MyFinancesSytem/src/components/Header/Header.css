@@ -12,3 +12,25 @@
     font-size: 2.2rem;
     color: #dddcda;
 }
+.header_container {
+    position: relative; /* Torna o container do cabeçalho posicionado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #143d01;
+}
+
+.logo {
+    position: absolute; /* Posiciona a imagem absolutamente em relação ao container do cabeçalho */
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    width: 150px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+}
+
