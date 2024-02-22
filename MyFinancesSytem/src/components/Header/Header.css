@@ -10,7 +10,7 @@
     margin-left: 1rem;
     font-weight: 500;
     font-size: 2.2rem;
-    color: #dddcda;
+    color: #9feb90;
 }
 .header_container {
     position: relative; /* Torna o container do cabeçalho posicionado */
@@ -23,11 +23,18 @@
 
 .logo {
     position: absolute; /* Posiciona a imagem absolutamente em relação ao container do cabeçalho */
-    top: 10px; /* Distância do topo */
+    top: 60px; /* Distância do topo */
     left: 10px; /* Distância da esquerda */
     width: 150px; /* Largura da imagem */
     height: auto; /* Altura automática para manter a proporção */
+    border-radius: 10px;
 }
+
+.logo:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do logotipo em 10% quando o mouse passa sobre ele */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos */
+}
+
 
 .title_container {
     display: flex;
